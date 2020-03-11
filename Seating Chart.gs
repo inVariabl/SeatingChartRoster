@@ -19,16 +19,16 @@
 
 function seatingChart() {
   //PreLoad Drive Structure so you can call the active sheet
-  var dApp = DriveApp;
+  const dApp = DriveApp;
 
   //Loads input: roster & output: table groups
-  var sApp = SpreadsheetApp;
+  const sApp = SpreadsheetApp;
   var activeSpreadsheet = sApp.getActiveSpreadsheet();
   var rosterSheet = activeSpreadsheet.getSheetByName("Roster");
   var seatingTableSheet = activeSpreadsheet.getSheetByName("Table Groups");
 
   //Loads output for visual seating cart in slides.
-  var iApp = SlidesApp;
+  const iApp = SlidesApp;
 
   //var studentViewPresentationId = rosterSheet.getRange('B2').getValue();
   //var studentViewPresentation = iApp.openById(studentViewPresentationId);
