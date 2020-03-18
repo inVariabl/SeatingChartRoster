@@ -1,0 +1,100 @@
+[{
+  "name": "big_duck",
+  "big_duck": 0,
+  "medium_duck": 5,
+  "little_duck": 5,
+  "big_frog": 3,
+  "medium_frog": 0,
+  "little_frog": 0,
+  "big_bear": 3,
+  "medium_bear": 0,
+  "little_bear": 0
+}, {
+  "name": "medium_duck",
+  "big_duck": 5,
+  "medium_duck": 0,
+  "little_duck": 5,
+  "big_frog": 0,
+  "medium_frog": 3,
+  "little_frog": 0,
+  "big_bear": 0,
+  "medium_bear": 3,
+  "little_bear": 0
+}, {
+  "name": "little_duck",
+  "big_duck": 5,
+  "medium_duck": 5,
+  "little_duck": 0,
+  "big_frog": 0,
+  "medium_frog": 0,
+  "little_frog": 3,
+  "big_bear": 0,
+  "medium_bear": 0,
+  "little_bear": 3
+}, {
+  "name": "big_frog",
+  "big_duck": 3,
+  "medium_duck": 0,
+  "little_duck": 0,
+  "big_frog": 0,
+  "medium_frog": 5,
+  "little_frog": 5,
+  "big_bear": 3,
+  "medium_bear": 0,
+  "little_bear": 0
+}, {
+  "name": "medium_frog",
+  "big_duck": 0,
+  "medium_duck": 3,
+  "little_duck": 0,
+  "big_frog": 5,
+  "medium_frog": 0,
+  "little_frog": 5,
+  "big_bear": 0,
+  "medium_bear": 3,
+  "little_bear": 0
+}, {
+  "name": "little_frog",
+  "big_duck": 0,
+  "medium_duck": 0,
+  "little_duck": 3,
+  "big_frog": 5,
+  "medium_frog": 5,
+  "little_frog": 0,
+  "big_bear": 0,
+  "medium_bear": 0,
+  "little_bear": 3
+}, {
+  "name": "big_bear",
+  "big_duck": 3,
+  "medium_duck": 0,
+  "little_duck": 0,
+  "big_frog": 3,
+  "medium_frog": 0,
+  "little_frog": 0,
+  "big_bear": 0,
+  "medium_bear": 5,
+  "little_bear": 5
+}, {
+  "name": "medium_bear",
+  "big_duck": 0,
+  "medium_duck": 3,
+  "little_duck": 0,
+  "big_frog": 0,
+  "medium_frog": 3,
+  "little_frog": 0,
+  "big_bear": 5,
+  "medium_bear": 0,
+  "little_bear": 5
+}, {
+  "name": "little_bear",
+  "big_duck": 0,
+  "medium_duck": 0,
+  "little_duck": 3,
+  "big_frog": 0,
+  "medium_frog": 0,
+  "little_frog": 3,
+  "big_bear": 5,
+  "medium_bear": 5,
+  "little_bear": 0
+}]
