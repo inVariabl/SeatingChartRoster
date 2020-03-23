@@ -1,0 +1,47 @@
+[
+
+{
+"block": "4",
+"id": {
+	"full": "5555" ,
+	"4digit": "1005555"
+},
+"name": {
+	"first": "John",
+	"last": "Doe",
+	"lastinitial": "D"
+},
+"email": "john.doe@sgv.csarts.net",
+"rank":  "4"
+},
+
+{
+"block": "3",
+"id": {
+	"full": "5455" ,
+	"4digit": "1005455"
+},
+"name": {
+	"first": "Jane",
+	"last": "Doe",
+	"lastinitial": "D"
+},
+"email": "jane.doe@sgv.csarts.net",
+"rank":  "3"
+},
+
+{
+"block": "3",
+"id": {
+	"full": "5455" ,
+	"4digit": "1005455"
+},
+"name": {
+	"first": "Jane",
+	"last": "Doe",
+	"lastinitial": "D"
+},
+"email": "jane.doe@sgv.csarts.net",
+"rank":  "3"
+}
+]

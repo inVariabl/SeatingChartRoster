@@ -30,31 +30,27 @@ function seatingChart() {
   //Loads output for visual seating cart in slides.
   const iApp = SlidesApp;
 
-  var student = {
+  let student = {
     PresentationId: rosterSheet.getRange('B2').getValue(),
     Presentation: iApp.openById(student.PresentationId),
     Charts: student.Presentation.getSlides(),
-    Page: "",
-    PageId: "",
   };
 
-  var teacher = {
+  let teacher = {
     PresentationId: rosterSheet.getRange('C2').getValue(),
     Presentation: iApp.openById(teacher.PresentationId),
     Charts: teacher.Presentation.getSlides(),
-    Page: "",
-    PageId: "",
   };
 
-  var roster = {
+  let roster = {
     firstRow: 5,
     firstCol: 1,
     numRows: rosterSheet.getLastRow() - roster.firstRow + 1,
     colNum: {
       rank: 8,
-      block:
+      block: ,
       firstName: 2,
-      lastName:
+      lastName: ,
       lastInitial: 4,
     },
   };
@@ -70,9 +66,9 @@ function seatingChart() {
       for (var i = 0; i < 6; i++) {
         var blockIndex = i + 1;
         student.Page = student.Charts[i];
-        student.PageId = studentViewPage.getObjectId();
-        teacher.Page = teacherViewCharts[i];
-        teacher.PageId = teacherViewPage.getObjectId();
+        student.PageId = student.Page.getObjectId();
+        teacher.Page = teacher.Charts[i];
+        teacher.PageId = teacher.Page.getObjectId();
 
         grouper(blockIndex, myRoster, numGroups, roster.colNum_rank, seatingTableSheet, student.PresentationId, teacher.PresentationId, student.PageId, teacher.PageId);
       }
@@ -469,6 +465,10 @@ function seatingChart() {
 
     return selectGroups;
   }
+
+  //Output Groups to Object
+
+
 
   //Output Groups to Spreadsheet
   function flushTableGroupsOutputs(putSheet) {

@@ -7,7 +7,7 @@ let db = fs.readFileSync('database.json');
 let myClass = JSON.parse(db);
 
 // OutputArray
-let happie
+var OutputArray;
 
 //Define Globals
 const groupSize = 3;
@@ -76,7 +76,6 @@ var findHappiness = function(d2database) {
   return allHappiness.reduce(findSmallest);
 };
 
-/*
 var printOutput = function(d2database) {
   for (var group = 0; group < groupNum; group++) {
     console.log("**Group " + group + "**");
@@ -86,14 +85,6 @@ var printOutput = function(d2database) {
     }
   }
 };
-*/
-
-// you don't have to declare functions with var btw
-function printOutput(d2database) {
-  for (let group = 0; group < groupNum; group++) {
-    console.log();
-  }
-}
 
 
 //Master Program
